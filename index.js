@@ -35,46 +35,6 @@ var data= {
             link:["#","#","#","#","#"]
         }
     },
-    beauty: {
-        title:["Thanks for your response","Here are some beauty products for you","Click on it to know more"],
-        options:['Make-up & Nails','Skin Care','Fragrance','Hair care'],
-        url : {
-            more:"https://www.youtube.com/@webhub/videos",
-            link:["#","#","#","#"]
-        }
-    },
-    mobiles: {
-        title:["Thanks for your response","These are some results based on your input","Click on it to know more"],
-        options:['Mobile Phones','Cases & Covers','Power Banks','Tablets'],
-        url : {
-            more:"https://www.youtube.com/@webhub/videos",
-            link:["#","#","#","#"]
-        }
-    },
-    men: {
-        title:["Thanks for your response","These are some results based on your input","Click on it to know more"],
-        options:['Clothing','Shirts','T-shirts','Innerwear','Jeans'],
-        url : {
-            more:"https://www.youtube.com/@webhub/videos",
-            link:["#","#","#","#","#"]
-        }
-    },
-    women: {
-        title:["Thanks for your response","These are some results based on your input","Click on it to know more"],
-        options:['Clothing','Western Wear','Ethnic Wear','Top Brands'],
-        url : {
-            more:"https://www.youtube.com/@webhub/videos",
-            link:["#","#","#","#"]
-        }
-    },
-    music: {
-        title:["These are some latest songs <span class='emoji'> &#127925;</span>"],
-        options: ["song 1","song 2","song 3","song 4","song 5"],
-        url : {
-            more:"https://www.youtube.com/@webhub/videos",
-            link:["https://www.youtube.com/@webhub/videos","https://www.youtube.com/@webhub/videos","https://www.youtube.com/@webhub/videos","https://www.youtube.com/@webhub/videos"]
-        }
-    },
     savings: {
         title: ["Thanks for your response","Here are the key benefits of a savings account"],
         options: ["Safety and Security","Minimal fees","Online and Mobile Access","Open New Savings Acccount"],
@@ -91,22 +51,8 @@ var data= {
             link:["#","#","www.citibank/newaccount","#","#"]
         }
     },
-    web: {
-        title: ["Thanks for your response","Here are some genre based web series"],
-        options: ["Comedy","Horror","Sci-Fi","Romance","Action"],
-        url: {
-            more:"https://www.youtube.com/@webhub/videos",
-            link:["#","#","#","#","#"]
-        }
-    },
-    others: {
-        title: ["Here are some more options for you"],
-        options: ["YouTube","Netflix","Amazon Prime","Hot Star"],
-        url: {
-            more:"https://www.youtube.com/",
-            link:["#","#","#","#","#"]
-        }
-    },
+    
+    
 }
 
 document.getElementById("init").addEventListener("click",showChatBot);
